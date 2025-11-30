@@ -1,3 +1,7 @@
+<?php
+include_once("conexion.php");
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -26,7 +30,6 @@
       <div class="d-lg-flex align-items-center gap-2">
         <h3 class="text-white mb-2 mb-lg-0 fs-5 text-center">Check Flexy Premium Version</h3>
         <div class="d-flex align-items-center justify-content-center gap-2">
-          
           <div class="dropdown d-flex">
             <a class="btn btn-primary d-flex align-items-center gap-1 " href="javascript:void(0)" id="drop4"
               data-bs-toggle="dropdown" aria-expanded="false">

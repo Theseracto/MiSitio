@@ -10,8 +10,8 @@ try {
     // Configurar opciones de PDO
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-    echo "✅ Conexión exitosa a la base de datos";
+    echo " Conexión exitosa a la base de datos";
 } catch(PDOException $e) {
-    die("❌ Error de conexión: " . $e->getMessage());
+    die("Error de conexión: " . $e->getMessage());
 }
 ?>
